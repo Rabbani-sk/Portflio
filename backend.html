@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backend Technology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            max-width: 850px;
+            margin: auto;
+            line-height: 1.7;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+
+        .tech-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 60px 20px;
+        }
+
+        .tech-card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 25px;
+            border-radius: 15px;
+            width: 260px;
+            transition: all 0.4s ease;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        .tech-card:hover {
+            transform: translateY(-12px);
+            background: rgba(255, 255, 255, 0.18);
+        }
+
+        .tech-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+
+        .tech-card h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 25px;
+            background: rgba(0, 0, 0, 0.6);
+            font-size: 18px;
+        }
+        .back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #00c6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #0072ff;
+    transform: scale(1.05);
+}    </style>
+</head>
+
+<body>
+
+<header>
+    <h1> Backend Development</h1>
+    <p>
+        A backend using Java refers to developing the server-side logic and infrastructure of an application 
+        using Java and its powerful ecosystem like Spring Boot. It handles business logic, APIs, 
+        database connectivity, authentication, and application performance.
+    </p>
+</header>
+
+<section class="tech-section">
+
+    <div class="tech-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+        <h3>Java</h3>
+        <p>Core backend programming language for scalable applications.</p>
+    </div>
+
+    <div class="tech-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="Spring Boot">
+        <h3>Spring Boot</h3>
+        <p>Framework for building production-ready backend services.</p>
+    </div>
+</section>
+
+<footer>
+    <p>Thank you for reaching out 😊</p>
+    <a href="index.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back
+    </a>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Technology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        .tech-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 50px 20px;
+        }
+
+        .tech-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            width: 250px;
+            transition: 0.3s ease;
+        }
+   
+
+        .tech-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .tech-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        .back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #00c6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #0072ff;
+    transform: scale(1.05);
+}
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Web Technology</h1>
+    <p>
+        Web technology refers to the means by which computers communicate with each other using markup languages and multimedia packages. 
+        It gives us a way to interact with hosted information like websites. 
+        Web technology involves HTML, CSS, JavaScript, and ReactJS.
+    </p>
+</header>
+
+<section class="tech-section">
+
+    <div class="tech-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+        <h3>HTML</h3>
+        <p>Structure of web pages using markup language.</p>
+    </div>
+
+    <div class="tech-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+        <h3>CSS</h3>
+        <p>Styles and designs beautiful web layouts.</p>
+    </div>
+
+    <div class="tech-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+        <h3>JavaScript</h3>
+        <p>Adds interactivity and dynamic behavior.</p>
+    </div>
+
+    <div class="tech-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="ReactJS">
+        <h3>ReactJS</h3>
+        <p>Builds modern and fast user interfaces.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>Thank you for reaching out 😊</p>
+    <a href="index.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back
+    </a>
+</footer>
+
+</body>
+</html>
